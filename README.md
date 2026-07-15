@@ -4,7 +4,7 @@ Keep Codex quota, reset timing, and reset activity visible in the macOS menu bar
 
 > Ever saved a large refactor for tomorrow, only to wake up and find that the previous quota window had already reset? Codex Quota Bar helps you notice the timing earlier, so you can plan demanding work while the remaining quota is still useful.
 
-[Download the latest release](../../releases/latest) · [Support the project](SUPPORT.md)
+[Download for macOS](dist/CodexQuotaBar-1.1.13-universal.dmg?raw=1) · [ZIP archive](dist/CodexQuotaBar-1.1.13-universal.zip?raw=1) · [Support the project](SUPPORT.md)
 
 ## Highlights
 
@@ -36,8 +36,8 @@ Guided installation and menu-bar access:
 
 ## Install
 
-1. Open the [latest release](../../releases/latest).
-2. Download `CodexQuotaBar-1.1.13-universal.dmg`.
+1. Download [CodexQuotaBar 1.1.13 for macOS](dist/CodexQuotaBar-1.1.13-universal.dmg?raw=1).
+2. Open `CodexQuotaBar-1.1.13-universal.dmg`.
 3. Open the DMG and double-click the installer.
 4. Follow the on-screen first-run guide.
 
