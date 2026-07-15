@@ -1,0 +1,2 @@
+7e1852197e49eeefe07f795f9e17cd681e4db76c6f9342ca71b0b277a1e5fcd9  dist/CodexQuotaBar-1.1.13-universal.dmg
+2d8d8a72b706309b4856ce08b19841dc62ebea45c80b6caa678118b53093f572  dist/CodexQuotaBar-1.1.13-universal.zip
