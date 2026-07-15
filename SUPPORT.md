@@ -9,3 +9,9 @@ Codex Quota Bar is distributed as a donation-supported utility. If it helps you 
 Sponsorship helps cover macOS compatibility work, testing across quota-rule changes, and maintenance of reset activity monitoring.
 
 Thank you for supporting independent software.
+
+## Enabling sponsorship
+
+The repository already includes GitHub's standard funding configuration for `vince1269`. To activate the Sponsor button, enroll the account at [GitHub Sponsors](https://github.com/sponsors/accounts) and complete GitHub's payout and tax review.
+
+As an alternative, create a Ko-fi or Buy Me a Coffee page and add its public URL to `.github/FUNDING.yml` using GitHub's supported `ko_fi`, `buy_me_a_coffee`, or `custom` field. Never commit payment credentials or private payout information.
