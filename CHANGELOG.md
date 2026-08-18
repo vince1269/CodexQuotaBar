@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.14
+
+- Fixed login startup by launching the menu-bar executable directly instead of relying on a background LaunchServices open request.
+
 ## 1.1.13
 
 - Added reset activity announcements with source access.
