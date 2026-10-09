@@ -4,16 +4,20 @@ Keep Codex quota, reset timing, and reset activity visible in the macOS menu bar
 
 > Ever saved a large refactor for tomorrow, only to wake up and find that the previous quota window had already reset? Codex Quota Bar helps you notice the timing earlier, so you can plan demanding work while the remaining quota is still useful.
 
-[Download for macOS](dist/CodexQuotaBar-1.1.14-universal.dmg?raw=1) · [ZIP archive](dist/CodexQuotaBar-1.1.14-universal.zip?raw=1) · [Support the project](SUPPORT.md)
+[Download for macOS](dist/CodexQuotaBar-1.2.5-universal.dmg?raw=1) · [ZIP archive](dist/CodexQuotaBar-1.2.5-universal.zip?raw=1) · [Support the project](SUPPORT.md)
 
 ## Highlights
 
+- **Task inbox** — find running conversations, completed unread work, and supported requests that need your input or approval, with action requests first.
+- **Timely task alerts** — new completions and action requests can open the panel automatically. Opening an action request clears its reminder, without answering or approving it for you.
+- **Readable task panel** — a dark frosted panel with clear status colors, wrapping titles, and a scrollable task list.
 - **Reset activity alerts** — surfaces relevant public official announcements and provides a link to the original source when available.
 - **Reset-card arrival notices** — lets you know when a reset or locally visible reset-card change is detected.
 - **Always-visible quota** — shows weekly quota, reset countdown, reset date, and reset-card count in the menu bar.
 - **Adaptive time windows** — automatically adjusts the menu-bar layout when a five-hour quota window is present or absent.
 - **Useful color alerts** — highlights lower remaining quota and marks only the reset countdown when less than one day remains.
 - **Automatic refresh** — updates local quota information in the background without repeatedly opening a usage page.
+- **Resilient syncing** — retries temporary query failures and refreshes after wake. Last-known values are explicitly marked as non-live when syncing fails.
 - **Guided installation** — includes a visual first-run guide and supports both Apple silicon and Intel Macs.
 
 ## See It in Action
@@ -36,8 +40,8 @@ Guided installation and menu-bar access:
 
 ## Install
 
-1. Download [CodexQuotaBar 1.1.14 for macOS](dist/CodexQuotaBar-1.1.14-universal.dmg?raw=1).
-2. Open `CodexQuotaBar-1.1.14-universal.dmg`.
+1. Download [CodexQuotaBar 1.2.5 for macOS](dist/CodexQuotaBar-1.2.5-universal.dmg?raw=1).
+2. Open `CodexQuotaBar-1.2.5-universal.dmg`.
 3. Open the DMG and double-click the installer.
 4. Follow the on-screen first-run guide.
 
@@ -61,6 +65,8 @@ Codex Quota Bar is an independent third-party utility. It is not affiliated with
 Activity monitoring is informational. Announcements may change, be delayed, be cancelled, or apply only to selected accounts. Quota, reset-card delivery, reset timing, and eligibility are always determined by OpenAI's final operation and the actual state shown on your account.
 
 The promotional images above contain Chinese interface examples. The menu-bar values shown are illustrative and may differ from your account.
+
+Task-action detection covers supported structured input and permission requests, not every free-form request in a conversation. The promotional images predate the task inbox added in 1.2.x.
 
 ## Support Development
 
