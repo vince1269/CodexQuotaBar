@@ -4,10 +4,11 @@ Keep Codex quota, reset timing, and reset activity visible in the macOS menu bar
 
 > Ever saved a large refactor for tomorrow, only to wake up and find that the previous quota window had already reset? Codex Quota Bar helps you notice the timing earlier, so you can plan demanding work while the remaining quota is still useful.
 
-[Download for macOS](dist/CodexQuotaBar-1.2.5-universal.dmg?raw=1) · [ZIP archive](dist/CodexQuotaBar-1.2.5-universal.zip?raw=1) · [Support the project](SUPPORT.md)
+[Download for macOS](dist/CodexQuotaBar-1.2.6-universal.dmg?raw=1) · [ZIP archive](dist/CodexQuotaBar-1.2.6-universal.zip?raw=1) · [Support the project](SUPPORT.md)
 
 ## Highlights
 
+- **Update reminders** — checks for new versions at startup and hourly. A menu-bar arrow and panel button let you download a verified installer; installation still requires your confirmation.
 - **Task inbox** — find running conversations, completed unread work, and supported requests that need your input or approval, with action requests first.
 - **Timely task alerts** — new completions and action requests can open the panel automatically. Opening an action request clears its reminder, without answering or approving it for you.
 - **Readable task panel** — a dark frosted panel with clear status colors, wrapping titles, and a scrollable task list.
@@ -40,12 +41,14 @@ Guided installation and menu-bar access:
 
 ## Install
 
-1. Download [CodexQuotaBar 1.2.5 for macOS](dist/CodexQuotaBar-1.2.5-universal.dmg?raw=1).
-2. Open `CodexQuotaBar-1.2.5-universal.dmg`.
+1. Download [CodexQuotaBar 1.2.6 for macOS](dist/CodexQuotaBar-1.2.6-universal.dmg?raw=1).
+2. Open `CodexQuotaBar-1.2.6-universal.dmg`.
 3. Open the DMG and double-click the installer.
 4. Follow the on-screen first-run guide.
 
 The app is locally signed but not notarized with an Apple Developer ID. If macOS blocks the first launch, Control-click the installer, choose **Open**, and confirm once.
+
+Versions before 1.2.6 need this one manual installation to enable update checks. Updates verify archive checksums, bundle identity, version, and local code-signature integrity before opening the installer. This relies on HTTPS and the trusted repository, not Developer ID authentication. Failed installation attempts restore the previous app where possible; a recovery copy is retained after successful upgrades.
 
 ## Requirements
 

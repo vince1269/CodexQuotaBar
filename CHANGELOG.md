@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.2.6
+
+- Added startup and hourly update checks, a menu-bar indicator, and clickable update controls.
+- Downloads and validates the installer before asking you to install; no silent replacement.
+- Added staged installation, previous-version recovery copies, and rollback on install failure.
+- Fixed installer detection for the current ChatGPT CLI layout.
+
 ## 1.2.5
 
 - Added a task inbox for running conversations, completed unread work, and supported input or permission requests.
